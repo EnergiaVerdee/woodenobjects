@@ -5,6 +5,32 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+nav {
+    background-color: #ffffff;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #acacac;
+  }
 
 /* Globales */
 *::after,
